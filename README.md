@@ -28,10 +28,10 @@ df=pd.read_csv('student_scores.csv')
 #displaying the content in datafile
 df.head()
 
-![image](https://github.com/user-attachments/assets/b9f0a7e6-4a41-4e3d-b065-fcbb2586173a)
 
 
-```
+![image](https://github.com/user-attachments/assets/b341d8e8-e32c-404c-b737-e93d98669867)
+
 
 
 
