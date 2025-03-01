@@ -1,3 +1,4 @@
+
 # Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
 
 ## AIM:
@@ -27,23 +28,28 @@ df=pd.read_csv('student_scores.csv')
 #displaying the content in datafile
 df.head()
 ~~~
+## Output:
+
 ![mlpic](https://github.com/user-attachments/assets/46372791-1b03-4fef-9bf9-21ac7f56215c)
 
 ~~~
 df.tail()
 ~~~
+## Output:
 ![image](https://github.com/user-attachments/assets/325b3fcd-343e-48de-be71-882eb4ffa902)
 
 ~~~
 x=df.iloc[:,:-1].values
 x
 ~~~
+## Output:
 ![image](https://github.com/user-attachments/assets/f1e7c477-8729-4146-b542-028d779322e1)
 
 ~~~
 y=df.iloc[:,1].values
 y
 ~~~
+## Output:
 ![image](https://github.com/user-attachments/assets/b24dd9e7-57c4-48b3-a8b0-e07b12b57973)
 
 
@@ -61,11 +67,13 @@ y_pred=regressor.predict(x_test)
 ~~~
 y_pred
 ~~~
+## Output:
 ![image](https://github.com/user-attachments/assets/4e4bcaf3-7475-4961-9698-bb123e9a39fb)
 
 ~~~
 y_test
 ~~~
+## Output:
 ![image](https://github.com/user-attachments/assets/17e79a54-20e5-46b7-a147-3188fc659f53)
 
 ~~~
@@ -76,6 +84,7 @@ print('MAE =',mae)
 rmse=np.sqrt(mse)
 print("RMSE =",rmse)
 ~~~
+## Output:
 ![image](https://github.com/user-attachments/assets/e6125223-71e0-477a-8ab8-60524f53691e)
 ~~~
 plt.scatter(x_train,y_train,color="orange")
@@ -85,6 +94,7 @@ plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
 ~~~
+## Output:
 ![image](https://github.com/user-attachments/assets/0d169e89-8175-4a89-9c64-72766c520da9)
 
 ~~~
@@ -95,7 +105,7 @@ plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
 ~~~
-
+## Output:
 ![image](https://github.com/user-attachments/assets/5d417873-550b-4717-9d7c-a15da78c6862)
 
 
