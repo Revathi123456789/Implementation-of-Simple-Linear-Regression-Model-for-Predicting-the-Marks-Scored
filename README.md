@@ -15,10 +15,8 @@ To write a program to predict the marks scored by a student using the simple lin
 
 ## Program:
 ```
-
 Developed by: Ramya P
 RegisterNumber: 212223230168
-
 
 import pandas as pd
 import numpy as np
@@ -27,10 +25,12 @@ from sklearn.metrics import mean_absolute_error,mean_squared_error
 df=pd.read_csv('student_scores.csv')
 #displaying the content in datafile
 df.head()
+![mlpic](https://github.com/user-attachments/assets/46372791-1b03-4fef-9bf9-21ac7f56215c)
 
 
 
-![image](https://github.com/user-attachments/assets/b341d8e8-e32c-404c-b737-e93d98669867)
+
+
 
 
 
