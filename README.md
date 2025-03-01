@@ -14,7 +14,7 @@ To write a program to predict the marks scored by a student using the simple lin
 4. Evaluate performance using metrics like Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
 
 ## Program:
-```
+
 Developed by: Ramya P
 RegisterNumber: 212223230168
 
