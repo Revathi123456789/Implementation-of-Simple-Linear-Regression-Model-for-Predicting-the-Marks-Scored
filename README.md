@@ -73,7 +73,7 @@ y_pred
 ~~~
 y_test
 ~~~
-## Output:
+# Output:
 ![image](https://github.com/user-attachments/assets/17e79a54-20e5-46b7-a147-3188fc659f53)
 
 ~~~
@@ -94,7 +94,7 @@ plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
 ~~~
-## Output:
+# Output:
 ![image](https://github.com/user-attachments/assets/0d169e89-8175-4a89-9c64-72766c520da9)
 
 ~~~
